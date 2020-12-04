@@ -1,0 +1,2517 @@
+{
+    "collection": [
+        {
+            "references": null,
+            "affectsInStockCounter": true,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-25",
+                "paymentTerms": {
+                    "paymentTermsType": null,
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 11,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/11"
+                },
+                "paymentType": null,
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": {
+                    "province": {
+                        "id": 999,
+                        "metaData": null,
+                        "self": "http://192.168.192.189/reviso-rest/provinces/IT/999"
+                    },
+                    "id": "IT",
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/country-codes/IT"
+                },
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Test11",
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/1"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": null,
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": 0.0,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": "Test product with 22% VAT",
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Test product with 22% VATaaaa",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 13.13,
+                        "unitGrossPrice": 16.0186,
+                        "totalNetAmount": 13.13,
+                        "totalGrossAmount": 16.0186,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 2.8886
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": null,
+                "deliveryEndDate": null,
+                "numberOfPackages": null,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": null,
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-25",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/6"
+            },
+            "printTemplate": {
+                "id": "B1gDotKHeP",
+                "name": "Standard"
+            },
+            "id": 6,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/6"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "TimeTable",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 11,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/11"
+                },
+                "paymentType": null,
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 100.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": {
+                    "province": {
+                        "id": 999,
+                        "metaData": null,
+                        "self": "http://192.168.192.189/reviso-rest/provinces/IT/999"
+                    },
+                    "id": "IT",
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/country-codes/IT"
+                },
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Test11",
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/1"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "96",
+                "id": 96,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/96"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Some other name",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 100.0,
+                        "unitGrossPrice": 122.00,
+                        "totalNetAmount": 100.0,
+                        "totalGrossAmount": 122.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 22.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-26T14:02",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-26",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/7"
+            },
+            "printTemplate": null,
+            "id": 7,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/7"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "TimeTable",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 11,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/11"
+                },
+                "paymentType": null,
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": {
+                    "province": {
+                        "id": 999,
+                        "metaData": null,
+                        "self": "http://192.168.192.189/reviso-rest/provinces/IT/999"
+                    },
+                    "id": "IT",
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/country-codes/IT"
+                },
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Test11",
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/1"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "96",
+                "id": 96,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/96"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Some other name",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 100.0,
+                        "unitGrossPrice": 122.00,
+                        "totalNetAmount": 100.0,
+                        "totalGrossAmount": 122.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 22.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-26T14:02",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-27",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/8"
+            },
+            "printTemplate": null,
+            "id": 8,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/8"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": {
+                "companyName": null,
+                "address": "Somewhere",
+                "zipCode": "0000",
+                "city": "Over",
+                "country": "The rainbow",
+                "countryCode": null,
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3/delivery-locations/1"
+            },
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-27",
+                "paymentTerms": {
+                    "paymentTermsType": "InvoiceMonth",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 3,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/3"
+                },
+                "paymentType": {
+                    "fields": null,
+                    "name": null,
+                    "id": 17,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-types/17"
+                },
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 4,
+                    "id": 4,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/4"
+                },
+                "name": "Another customer1",
+                "id": 3,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "97",
+                "id": 97,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/97"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "11",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/11"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Coffee",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "EX300",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/EX300"
+                            },
+                            "vatRate": 0.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 100.0,
+                        "unitGrossPrice": 100.0,
+                        "totalNetAmount": 100.0,
+                        "totalGrossAmount": 100.0,
+                        "unitCostPrice": 10.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 0.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T08:36",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-27",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/9"
+            },
+            "printTemplate": null,
+            "id": 9,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/9"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-27",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": null,
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "98",
+                "id": 98,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/98"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 200.0,
+                        "unitGrossPrice": 244.00,
+                        "totalNetAmount": 200.0,
+                        "totalGrossAmount": 244.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 44.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T09:00",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-27",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/10"
+            },
+            "printTemplate": null,
+            "id": 10,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/10"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-27",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": null,
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "98",
+                "id": 98,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/98"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 200.0,
+                        "unitGrossPrice": 244.00,
+                        "totalNetAmount": 200.0,
+                        "totalGrossAmount": 244.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 44.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T09:00",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-27",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/11"
+            },
+            "printTemplate": null,
+            "id": 11,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/11"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": null,
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "98",
+                "id": 98,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/98"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 200.0,
+                        "unitGrossPrice": 244.00,
+                        "totalNetAmount": 200.0,
+                        "totalGrossAmount": 244.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 44.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T07:00",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-26",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/12"
+            },
+            "printTemplate": null,
+            "id": 12,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/12"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": null,
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "98",
+                "id": 98,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/98"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 0,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/0"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 200.0,
+                        "unitGrossPrice": 244.00,
+                        "totalNetAmount": 200.0,
+                        "totalGrossAmount": 244.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 44.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T07:00",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-26",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/13"
+            },
+            "printTemplate": null,
+            "id": 13,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/13"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": null,
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "98",
+                "id": 98,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/98"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": null,
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 200.0,
+                        "unitGrossPrice": 244.00,
+                        "totalNetAmount": 200.0,
+                        "totalGrossAmount": 244.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 44.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T07:00",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-26",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/14"
+            },
+            "printTemplate": null,
+            "id": 14,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/14"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": null,
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "98",
+                "id": 98,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/98"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 200.0,
+                        "unitGrossPrice": 244.00,
+                        "totalNetAmount": 200.0,
+                        "totalGrossAmount": 244.00,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 44.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T07:00",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-26",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/15"
+            },
+            "printTemplate": null,
+            "id": 15,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/15"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": {
+                "companyName": null,
+                "address": "Somewhere",
+                "zipCode": "0000",
+                "city": "Over",
+                "country": "The rainbow",
+                "countryCode": null,
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3/delivery-locations/1"
+            },
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-27",
+                "paymentTerms": {
+                    "paymentTermsType": "InvoiceMonth",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 3,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/3"
+                },
+                "paymentType": {
+                    "fields": null,
+                    "name": null,
+                    "id": 17,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-types/17"
+                },
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 4,
+                    "id": 4,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/4"
+                },
+                "name": "Another customer1",
+                "id": 3,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "97",
+                "id": 97,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/97"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "11",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/11"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Coffee",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "EX300",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/EX300"
+                            },
+                            "vatRate": 0.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 100.0,
+                        "unitGrossPrice": 100.0,
+                        "totalNetAmount": 100.0,
+                        "totalGrossAmount": 100.0,
+                        "unitCostPrice": 10.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 0.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T08:36",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-09-01",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/16"
+            },
+            "printTemplate": null,
+            "id": 16,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/16"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": {
+                "companyName": null,
+                "address": "Somewhere",
+                "zipCode": "0000",
+                "city": "Over",
+                "country": "The rainbow",
+                "countryCode": null,
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3/delivery-locations/1"
+            },
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-26",
+                "paymentTerms": {
+                    "paymentTermsType": "InvoiceMonth",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 3,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/3"
+                },
+                "paymentType": {
+                    "fields": null,
+                    "name": null,
+                    "id": 17,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-types/17"
+                },
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 4,
+                    "id": 4,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/4"
+                },
+                "name": "Another customer1",
+                "id": 3,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "97",
+                "id": 97,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/97"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "11",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/11"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Coffee",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "EX300",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/EX300"
+                            },
+                            "vatRate": 0.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 100.0,
+                        "unitGrossPrice": 100.0,
+                        "totalNetAmount": 100.0,
+                        "totalGrossAmount": 100.0,
+                        "unitCostPrice": 10.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 0.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T06:36",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-08-31",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/17"
+            },
+            "printTemplate": null,
+            "id": 17,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/17"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": {
+                "companyName": null,
+                "address": "Somewhere",
+                "zipCode": "0000",
+                "city": "Over",
+                "country": "The rainbow",
+                "countryCode": null,
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3/delivery-locations/1"
+            },
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-08-27",
+                "paymentTerms": {
+                    "paymentTermsType": "InvoiceMonth",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 3,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/3"
+                },
+                "paymentType": {
+                    "fields": null,
+                    "name": null,
+                    "id": 17,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-types/17"
+                },
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 4,
+                    "id": 4,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/4"
+                },
+                "name": "Another customer1",
+                "id": 3,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/3"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "97",
+                "id": 97,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/97"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "11",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/11"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Coffee",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "EX300",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/EX300"
+                            },
+                            "vatRate": 0.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 100.0,
+                        "unitGrossPrice": 100.0,
+                        "totalNetAmount": 100.0,
+                        "totalGrossAmount": 100.0,
+                        "unitCostPrice": 10.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 0.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-08-27T08:36",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-09-01",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/18"
+            },
+            "printTemplate": null,
+            "id": 18,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/18"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": {
+                "companyName": null,
+                "address": "Ederlandsvej 49",
+                "zipCode": "2730",
+                "city": "Herlev",
+                "country": "Denmark",
+                "countryCode": null,
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/42/delivery-locations/1"
+            },
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-09-01",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": {
+                    "fields": null,
+                    "name": null,
+                    "id": 17,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-types/17"
+                },
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": "Ewaldsgade 3",
+                "zipCode": "3400",
+                "city": "Copenhagen",
+                "countryCode": null,
+                "country": "Denmark",
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "The guy",
+                "id": 42,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/42"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "99",
+                "id": 99,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/99"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 20.0,
+                        "unitGrossPrice": 24.40,
+                        "totalNetAmount": 20.0,
+                        "totalGrossAmount": 24.40,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 4.4
+                    },
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "3",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/3"
+                        },
+                        "chainId": null,
+                        "lineNr": 2,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Product with 10% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V10",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V10"
+                            },
+                            "vatRate": 10.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 30.0,
+                        "unitGrossPrice": 33.0,
+                        "totalNetAmount": 30.0,
+                        "totalGrossAmount": 33.0,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 3.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-09-01T12:48",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-09-01",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/19"
+            },
+            "printTemplate": {
+                "id": "B1gDotKHeP",
+                "name": "Standard"
+            },
+            "id": 19,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/19"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": false,
+            "destination": {
+                "companyName": null,
+                "address": "Ederlandsvej 49",
+                "zipCode": "2730",
+                "city": "Herlev",
+                "country": "Denmark",
+                "countryCode": null,
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/42/delivery-locations/1"
+            },
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-09-01",
+                "paymentTerms": {
+                    "paymentTermsType": "PaidInCash",
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/1"
+                },
+                "paymentType": {
+                    "fields": null,
+                    "name": null,
+                    "id": 17,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-types/17"
+                },
+                "bankAccount": {
+                    "name": null,
+                    "id": 1332000,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/accounts/1332000"
+                }
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": "Ewaldsgade 3",
+                "zipCode": "3400",
+                "city": "Copenhagen",
+                "countryCode": null,
+                "country": "Denmark",
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "The guy",
+                "id": 42,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/42"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": {
+                "name": "99",
+                "id": 99,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/orders/99"
+            },
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": null,
+                "productLines": [
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "1",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/1"
+                        },
+                        "chainId": null,
+                        "lineNr": 1,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Test product with 22% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V22",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V22"
+                            },
+                            "vatRate": 22.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 20.0,
+                        "unitGrossPrice": 24.40,
+                        "totalNetAmount": 20.0,
+                        "totalGrossAmount": 24.40,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 4.4
+                    },
+                    {
+                        "product": {
+                            "name": null,
+                            "id": "3",
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/products/3"
+                        },
+                        "chainId": null,
+                        "lineNr": 2,
+                        "location": {
+                            "id": 1,
+                            "metaData": null,
+                            "self": "http://192.168.192.189/reviso-rest/inventory/locations/1"
+                        },
+                        "description": "Product with 10% VAT",
+                        "vatInfo": {
+                            "vatAccount": {
+                                "id": "V10",
+                                "metaData": null,
+                                "self": "http://192.168.192.189/reviso-rest/vat-accounts/V10"
+                            },
+                            "vatRate": 10.0
+                        },
+                        "quantity": 1.0,
+                        "unit": null,
+                        "unitNetPrice": 30.0,
+                        "unitGrossPrice": 33.0,
+                        "totalNetAmount": 30.0,
+                        "totalGrossAmount": 33.0,
+                        "unitCostPrice": 0.0,
+                        "discountPercentage": 0.0,
+                        "totalVatAmount": 3.0
+                    }
+                ]
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": "2020-09-01T12:48",
+                "deliveryEndDate": null,
+                "numberOfPackages": 0,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": {
+                    "address": null,
+                    "city": null,
+                    "zipCode": null,
+                    "country": null,
+                    "phoneNumber": null,
+                    "email": null,
+                    "notes": null,
+                    "name": null,
+                    "id": null,
+                    "metaData": null,
+                    "self": null
+                },
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-09-02",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/20"
+            },
+            "printTemplate": null,
+            "id": 20,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/20"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": true,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-09-02",
+                "paymentTerms": {
+                    "paymentTermsType": null,
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 4,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/4"
+                },
+                "paymentType": null,
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": null,
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Søren",
+                "id": 19,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/19"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": null,
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": 0.0,
+                "productLines": []
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": null,
+                "deliveryEndDate": null,
+                "numberOfPackages": null,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": null,
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-09-02",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/21"
+            },
+            "printTemplate": {
+                "id": "B1gDotKHeP",
+                "name": "Standard"
+            },
+            "id": 21,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/21"
+        },
+        {
+            "references": null,
+            "affectsInStockCounter": true,
+            "destination": null,
+            "quotation": null,
+            "paymentDetails": {
+                "date": "2020-09-25",
+                "paymentTerms": {
+                    "paymentTermsType": null,
+                    "daysOfCredit": null,
+                    "dueDate": null,
+                    "name": null,
+                    "id": 11,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/payment-terms/11"
+                },
+                "paymentType": null,
+                "bankAccount": null
+            },
+            "notesAndAttachments": null,
+            "vatAmount": 0.0,
+            "totalAmount": 0.0,
+            "deliveryNoteType": "Sales",
+            "deliveryNoteStatus": "Draft",
+            "owner": {
+                "address": null,
+                "zipCode": null,
+                "city": null,
+                "countryCode": {
+                    "province": {
+                        "id": 999,
+                        "metaData": null,
+                        "self": "http://192.168.192.189/reviso-rest/provinces/IT/999"
+                    },
+                    "id": "IT",
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/country-codes/IT"
+                },
+                "country": null,
+                "vatZone": {
+                    "vatZoneNumber": 1,
+                    "id": 1,
+                    "metaData": null,
+                    "self": "http://192.168.192.189/reviso-rest/customers/1"
+                },
+                "name": "Test11",
+                "id": 1,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/customers/1"
+            },
+            "numberSeries": {
+                "prefix": "DDT",
+                "sequenceType": "Unordered",
+                "numberSeriesSequenceElement": null,
+                "id": 25,
+                "metaData": null,
+                "self": "http://192.168.192.189/reviso-rest/number-series/25"
+            },
+            "invoice": null,
+            "order": null,
+            "productDetails": {
+                "priceList": null,
+                "priceInGross": false,
+                "defaultDiscountPercentage": 0.0,
+                "productLines": []
+            },
+            "deliveryDetails": {
+                "deliveredBy": "Self",
+                "reasonForDelivery": null,
+                "deliveryTerms": null,
+                "deliveryStartDate": null,
+                "deliveryEndDate": null,
+                "numberOfPackages": null,
+                "descriptionOfPackages": null,
+                "netWeight": null,
+                "grossWeight": null,
+                "carrierInfo": null,
+                "id": null,
+                "metaData": null,
+                "self": null
+            },
+            "additionalExpenses": null,
+            "date": "2020-09-25",
+            "additionalInfo": {
+                "currency": "EUR",
+                "exchangeRate": 100.0,
+                "layout": null,
+                "project": null,
+                "tenderContractData": null
+            },
+            "pdf": {
+                "download": "http://192.168.192.5:10002/api/delivery-notes/sales/print/22"
+            },
+            "printTemplate": null,
+            "id": 22,
+            "metaData": null,
+            "self": "http://192.168.192.5:10002/api/delivery-notes/sales/22"
+        }
+    ],
+    "pagination": {
+        "pageSize": 1000,
+        "skipPages": 0,
+        "results": 17,
+        "firstPage": "http://192.168.192.5:10002/api/delivery-notes/sales?skippages=0&pagesize=1000",
+        "nextPage": "http://192.168.192.5:10002/api/delivery-notes/sales?skippages=1&pagesize=1000",
+        "previousPage": null
+    },
+    "self": "http://192.168.192.5:10002/api/delivery-notes/sales"
+}
